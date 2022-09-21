@@ -25,4 +25,6 @@ public interface UcenterMemberService extends IService<UcenterMember> {
 
     // 邮箱注册的方法
     void registerEmail(RegisterVo registerVo);
+
+    UcenterMember getOpenIdMember(String openid);
 }

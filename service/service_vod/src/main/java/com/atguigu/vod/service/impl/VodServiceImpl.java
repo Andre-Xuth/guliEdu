@@ -9,7 +9,7 @@ import com.atguigu.servicebase.exceptionhandler.GuliException;
 import com.atguigu.vod.Utils.ConstantVodUtils;
 import com.atguigu.vod.Utils.InitVodCilent;
 import com.atguigu.vod.service.VodService;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
